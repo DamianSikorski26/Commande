@@ -5,3 +5,32 @@ h1{
 #form-container{
     text-align: center;
 }
+
+#ADD{
+    background-color: red;
+    color : white;
+    border: none;
+    padding: 4px 20px ;
+    cursor: pointer;
+}
+.del{
+    cursor: pointer;
+}
+
+#list-container{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#list-container > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+#total{
+    margin-top: 20px;
+}
+
