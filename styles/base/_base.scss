@@ -1,36 +1,48 @@
-h1{
+h1 {
     text-align: center;
-    margin: 20px 0;
-}
-#form-container{
-    text-align: center;
+    margin: 30px;
+
 }
 
-#ADD{
-    background-color: red;
-    color : white;
-    border: none;
-    padding: 4px 20px ;
-    cursor: pointer;
-}
-.del{
-    cursor: pointer;
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#list-container{
-    width: 500px;
-    text-align: center;
+#summaryContainer{
     margin: auto;
-    margin-top: 20px;
-}
-
-#list-container > div {
+    width: 80%;
     display: flex;
-    justify-content: space-between;
-    margin: 10px 0;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-evenly;
+    align-items: start;
+    
+
+    
+
+    
 }
 
-#total{
-    margin-top: 20px;
+details{
+    min-width: 20%;
+    max-width: 30%;
+    background-color: rgb(243, 224, 198);
+    box-shadow: 1px 1px 5px ;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+    
+
+    
+    
 }
+
+summary{
+    text-decoration: underline;
+}
+p{
+    margin-bottom: 20px;}
 
