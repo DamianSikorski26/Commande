@@ -138,6 +138,8 @@ function createSummary(object){
 
 }
 
+
+
 function addToSummary(){
     let tables = [];
     for (let element of restaurant.commandes){
@@ -160,6 +162,8 @@ function addToSummary(){
         }
       
     }
+
+    
      for (let element of restaurant.commandes){
         
         addTotal(element);
